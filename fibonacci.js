@@ -29,5 +29,3 @@ function fibsRec(n) {
   let previous = fibsRec(n - 1);
   return previous.concat([previous.at(-1) + previous.at(-2)]);
 }
-
-export { fibs, fibsRec };
